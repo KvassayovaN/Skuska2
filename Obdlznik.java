@@ -19,6 +19,12 @@ public class Obdlznik extends stvorec implements j
         x = 0;
     }
 
+    public Obdlznik(int x)
+    {
+        // initialise instance variables
+        this.x = x;
+    }
+
     /**
      * An example of a method - replace this comment with your own
      *
